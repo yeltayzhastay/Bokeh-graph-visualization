@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="8007664f-e527-40e0-966d-8174c6fe81ab" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1242">
+          {"45f3cb86-b7eb-48f7-b93a-5882674490ea":{"roots":{"references":[{"attributes":{"data_source":{"id":"1020"},"glyph":{"id":"1032"},"hover_glyph":null,"muted_glyph":null,"view":{"id":"1022"}},"id":"1021","type":"GlyphRenderer"},{"attributes":{"end":1.1,"start":-1.1},"id":"1001","type":"Range1d"},{"attributes":{},"id":"1008","type":"PanTool"},{"attributes":{"edge_renderer":{"id":"1025"},"inspection_policy":{"id":"1051"},"layout_provider":{"id":"1031"},"node_renderer":{"id":"1021"},"selection_policy":{"id":"1046"}},"id":"1018","type":"GraphRenderer"},{"attributes":{},"id":"1009","type":"WheelZoomTool"},{"attributes":{},"id":"1015","type":"LinearScale"},{"attributes":{"line_alpha":{"value":0.8},"line_width":{"field":"adjusted_edge_size"}},"id":"1037","type":"MultiLine"},{"attributes":{"callback":null,"tooltips":[["index","@index"]]},"id":"1007","type":"HoverTool"},{"attributes":{"data":{"end":["cc","https","\u0434\u0435\u0433\u0435\u043d","\u0430\u043d\u0430","\u043a\u0435\u043b\u0433\u0435\u043d","\u043a\u04af\u043d\u0456","\u0440\u0435\u0442","\u0431\u0430\u043b\u0430","\u0430\u0441\u0442\u044b","\u043c\u0435\u043d","\u043a\u0435\u043b\u0433\u0435\u043d\u0434\u0435","\u0441\u0435\u043d","\u0430\u043d\u0430\u04a3","\u0431\u043e\u043b\u0493\u0430\u043d\u044b","\u0434\u0430","\u0435\u043c\u0435\u0441","\u0448\u0435\u0433\u0456\u043f","\u049b\u04b1\u0440\u0430\u043b\u0434\u044b","\u0442\u04af\u0440\u0434\u0435","\u0434\u0435\u0439\u0456\u043d"],"start":["vk","vk","\u04e9\u043c\u0456\u0440","\u0434\u0435\u0433\u0435\u043d","\u043a\u0435\u0437","\u0431\u0456\u0440","\u0431\u0456\u0440","\u0435\u0433\u0435\u0440","\u043a\u04e9\u0437","\u049b\u043e\u0440\u044b\u049b\u043f\u0430\u0439\u043c\u044b\u043d","\u0436\u0430\u0441\u049b\u0430","\u0436\u0430\u0441\u049b\u0430","\u043a\u0435\u043b\u0433\u0435\u043d\u0434\u0435","\u0431\u0430\u0440","\u0431\u043e\u043b\u0441\u0430","\u043c\u04af\u043c\u043a\u0456\u043d","\u0442\u0435\u043c\u0435\u043a\u0456","\u0431\u04b1\u043b","\u043c\u0456\u043d\u0434\u0435\u0442\u0442\u0456","\u0441\u043e\u04a3\u044b\u043d\u0430"],"weight":[740,730,210,150,170,160,130,140,130,120,110,110,90,100,100,100,100,100,90,90]},"selected":{"id":"1059"},"selection_policy":{"id":"1058"}},"id":"1024","type":"ColumnDataSource"},{"attributes":{"data":{"adjusted_node_size":[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],"index":["vk","cc","https","\u04e9\u043c\u0456\u0440","\u0434\u0435\u0433\u0435\u043d","\u043a\u0435\u0437","\u043a\u0435\u043b\u0433\u0435\u043d","\u0431\u0456\u0440","\u043a\u04af\u043d\u0456","\u0430\u043d\u0430","\u0435\u0433\u0435\u0440","\u0431\u0430\u043b\u0430","\u043a\u04e9\u0437","\u0430\u0441\u0442\u044b","\u0440\u0435\u0442","\u049b\u043e\u0440\u044b\u049b\u043f\u0430\u0439\u043c\u044b\u043d","\u043c\u0435\u043d","\u0436\u0430\u0441\u049b\u0430","\u043a\u0435\u043b\u0433\u0435\u043d\u0434\u0435","\u0441\u0435\u043d","\u0431\u0430\u0440","\u0431\u043e\u043b\u0493\u0430\u043d\u044b","\u0431\u043e\u043b\u0441\u0430","\u0434\u0430","\u043c\u04af\u043c\u043a\u0456\u043d","\u0435\u043c\u0435\u0441","\u0442\u0435\u043c\u0435\u043a\u0456","\u0448\u0435\u0433\u0456\u043f","\u0431\u04b1\u043b","\u049b\u04b1\u0440\u0430\u043b\u0434\u044b","\u043c\u0456\u043d\u0434\u0435\u0442\u0442\u0456","\u0442\u04af\u0440\u0434\u0435","\u0441\u043e\u04a3\u044b\u043d\u0430","\u0434\u0435\u0439\u0456\u043d","\u0430\u043d\u0430\u04a3"],"size":[730,740,730,210,150,170,170,130,160,150,140,140,130,130,130,120,120,110,90,110,100,100,100,100,100,100,100,100,100,100,90,90,90,90,90]},"selected":{"id":"1057"},"selection_policy":{"id":"1056"}},"id":"1020","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#2b83ba"},"size":{"field":"adjusted_node_size","units":"screen"}},"id":"1032","type":"Circle"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":{"id":"1009"},"active_tap":"auto","tools":[{"id":"1007"},{"id":"1008"},{"id":"1009"}]},"id":"1010","type":"Toolbar"},{"attributes":{},"id":"1051","type":"NodesOnly"},{"attributes":{"data_source":{"id":"1024"},"glyph":{"id":"1037"},"hover_glyph":null,"muted_glyph":null,"view":{"id":"1026"}},"id":"1025","type":"GlyphRenderer"},{"attributes":{},"id":"1056","type":"UnionRenderers"},{"attributes":{},"id":"1013","type":"LinearScale"},{"attributes":{},"id":"1057","type":"Selection"},{"attributes":{"plot_height":800,"plot_width":800,"renderers":[{"id":"1018"}],"title":{"id":"1006"},"toolbar":{"id":"1010"},"toolbar_location":"below","x_range":{"id":"1001"},"x_scale":{"id":"1013"},"y_range":{"id":"1002"},"y_scale":{"id":"1015"}},"id":"1003","type":"Plot"},{"attributes":{"end":1.1,"start":-1.1},"id":"1002","type":"Range1d"},{"attributes":{},"id":"1046","type":"NodesOnly"},{"attributes":{"text":"Graph Interaction Demonstration"},"id":"1006","type":"Title"},{"attributes":{"source":{"id":"1024"}},"id":"1026","type":"CDSView"},{"attributes":{"graph_layout":{"cc":[0.08958438645508314,0.2753578452010773],"https":[0.17024111073969664,0.2466308101309385],"vk":[0.1267526195536271,0.25363256138435986],"\u0430\u043d\u0430":[-0.7593522986615947,-0.32451989816595606],"\u0430\u043d\u0430\u04a3":[0.5558965224389504,-0.6271273339936578],"\u0430\u0441\u0442\u044b":[-0.7702792591464216,0.40660377357730204],"\u0431\u0430\u043b\u0430":[-0.3077656968859804,0.9355503591917421],"\u0431\u0430\u0440":[-0.5968978463259782,-0.6426397793769278],"\u0431\u043e\u043b\u0441\u0430":[0.2700382596714262,0.9822322422429735],"\u0431\u043e\u043b\u0493\u0430\u043d\u044b":[-0.5707117736697569,-0.710178208137015],"\u0431\u0456\u0440":[-0.47273597127202754,0.6828978788533],"\u0431\u04b1\u043b":[-0.9999999999999999,0.19861898269777997],"\u0434\u0430":[0.2434305250051738,0.8982097295334828],"\u0434\u0435\u0433\u0435\u043d":[-0.8570544762007954,-0.3625957643086011],"\u0434\u0435\u0439\u0456\u043d":[-0.2548946237402884,-0.81391896588614],"\u0435\u0433\u0435\u0440":[-0.24285579264231472,0.9479380047791599],"\u0435\u043c\u0435\u0441":[0.9108322049390292,0.45982710032244417],"\u0436\u0430\u0441\u049b\u0430":[0.39865420378347943,-0.5155725423319266],"\u043a\u0435\u0437":[0.8562335952872825,0.49034740834500035],"\u043a\u0435\u043b\u0433\u0435\u043d":[0.9282367163095033,0.5537299187233731],"\u043a\u0435\u043b\u0433\u0435\u043d\u0434\u0435":[0.4828507783220761,-0.5655067142690494],"\u043a\u04af\u043d\u0456":[-0.45532634420047585,0.6165453436465492],"\u043a\u04e9\u0437":[-0.7983279677374978,0.46848232477836727],"\u043c\u0435\u043d":[0.7710650746813204,-0.6788455794682794],"\u043c\u0456\u043d\u0434\u0435\u0442\u0442\u0456":[0.099255459929424,-0.9689930095777382],"\u043c\u04af\u043c\u043a\u0456\u043d":[0.8217927820454044,0.5310744759473384],"\u0440\u0435\u0442":[-0.484350313172687,0.7538823477533487],"\u0441\u0435\u043d":[0.3173149668139535,-0.5206668997951257],"\u0441\u043e\u04a3\u044b\u043d\u0430":[-0.1840831795657183,-0.837389583494009],"\u0442\u0435\u043c\u0435\u043a\u0456":[0.9206615220472908,-0.11158401483755451],"\u0442\u04af\u0440\u0434\u0435":[0.1642050410733485,-0.9295835051947097],"\u0448\u0435\u0433\u0456\u043f":[0.8326810390233722,-0.1014604333598045],"\u049b\u043e\u0440\u044b\u049b\u043f\u0430\u0439\u043c\u044b\u043d":[0.7151698580676502,-0.7242350413226196],"\u049b\u04b1\u0440\u0430\u043b\u0434\u044b":[-0.9877322537442947,0.12598912914594512],"\u04e9\u043c\u0456\u0440":[-0.93252886922126,-0.39273296273536645]}},"id":"1031","type":"StaticLayoutProvider"},{"attributes":{},"id":"1059","type":"Selection"},{"attributes":{"source":{"id":"1020"}},"id":"1022","type":"CDSView"},{"attributes":{},"id":"1058","type":"UnionRenderers"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1242').textContent;
+                  var render_items = [{"docid":"45f3cb86-b7eb-48f7-b93a-5882674490ea","root_ids":["1003"],"roots":{"1003":"8007664f-e527-40e0-966d-8174c6fe81ab"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
